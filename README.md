@@ -291,15 +291,15 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 👥 Team
 
-- **Developer**: [Your Name]
-- **Project Type**: Internship Assignment
+- **Developer**: Avinash
+- **Project Type**: Internship Assignment for wendor
 - **Technology Stack**: MERN + TypeScript
 
 ## 📞 Support
 
 For any questions or issues:
-- Email: [your-email@example.com]
-- GitHub Issues: [repository-url]/issues
+- Email: guptavinash43@gmail,com
+- GitHub Issues: https://github.com/avinash-a11y/wendor-assignment/issues
 
 ---
 
