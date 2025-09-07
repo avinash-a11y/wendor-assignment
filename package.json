@@ -1,0 +1,39 @@
+{
+  "name": "servicepro-fullstack",
+  "version": "1.0.0",
+  "description": "Professional Home Services Platform - MERN Stack Application",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd backend && npm run dev",
+    "client": "cd frontend && npm start",
+    "build": "cd backend && npm run build && cd ../frontend && npm run build",
+    "start": "cd backend && npm start",
+    "install-deps": "cd backend && npm install && cd ../frontend && npm install",
+    "test": "cd frontend && npm test",
+    "lint": "cd frontend && npm run lint && cd ../backend && npm run lint"
+  },
+  "keywords": [
+    "MERN",
+    "React",
+    "Node.js",
+    "MongoDB",
+    "TypeScript",
+    "Home Services",
+    "Booking Platform"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/servicepro.git"
+  },
+  "homepage": "https://servicepro.vercel.app"
+}

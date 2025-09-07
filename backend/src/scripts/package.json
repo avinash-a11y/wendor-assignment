@@ -1,0 +1,6 @@
+{
+  "scripts": {
+    "seed": "ts-node src/scripts/seedData.ts",
+    "seed:production": "ts-node src/scripts/seedProduction.ts"
+  }
+}
